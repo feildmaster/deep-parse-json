@@ -37,4 +37,4 @@ function deepParseJson(jsonString) {
   }
 }
 
-module.exports = { deepParseJson };
+if (module) module.exports = { deepParseJson };
